@@ -48,7 +48,6 @@ def mapper(sequence):
         for word in words:
             word = word.replace(",","")
             word = word.replace(".","")
-            word = word.lower()
             new_sequence.append((word,1))
     return new_sequence
 
